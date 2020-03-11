@@ -3,21 +3,21 @@
 Research deals with trust in political institutions, support for authoritarianism and civic knowledge in Latin American eighth-grade students.
 
 ```
-├── Data: Información con la base de datos
+├── Data: Information 
 |   ├── Original
-|   ├── Análisis
+|   ├── Analysis
 |   - iccs_values.xlsx
 |
-├── Literatura_Métodos: Documentos con apartados del capítulo
-|   ├── Artículos
+├── Literatura_Métodos: article sections
+|   ├── Papers
 │   - Metodología.docx
 │   - Revisión de literatura.docx
 |
-├── Presentaciones: Documento con presentación Coloquio Desigualdad y Ciudadania 2019
+├── Presentaciones: Document presentation Coloquio Desigualdad y Ciudadania 2019
 |
 ├── Resultados
 |
 - abstract_propuesta.md.pdf
-- README.md : Especificaciones generales
+- README.md : General Details
 - paper.Rmd / paper.html: the paper
 ```
