@@ -8,16 +8,20 @@ Research deals with trust in political institutions, support for authoritarianis
 |   ├── Analysis
 |   - iccs_values.xlsx
 |
-├── Literatura_Métodos: article sections
-|   ├── Papers
-│   - Metodología.docx
+├── Paper: Secciones del artículo y literatura utilizada
+|   ├── Articulos
+|   ├── Secciones:
 │   - Revisión de literatura.docx
-|
-├── Presentaciones: Document presentation Coloquio Desigualdad y Ciudadania 2019
+│   - Metodología.docx
+|   - abstract_propuesta.md.pdf
+|   
+├── Presentaciones: Documento de presentación Coloquio Desigualdad y Ciudadania 2019
 |
 ├── Resultados
-|
-- abstract_propuesta.md.pdf
-- README.md : General Details
-- paper.Rmd / paper.html: the paper
+│   - Metodología.docx
+|   - Results_ICCS_2009_2016.Rmd
+|   - Results_ICCS_2009_2016.html
+|   ├── Graphs: Gráficos
+- book_cap.Rmd / book_cap.pdf: Compilación capítulo
+- README.md : Detalles Generales 
 ```

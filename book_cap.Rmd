@@ -1,0 +1,53 @@
+---
+title: |
+  \vspace{0.5cm} \Large{Trust in political institutions and support for authoritarianism in Latin American students: Does civic knowledge make a difference?}
+author:
+- Daniel Miranda, Juan Carlos Castillo, Catalina Miranda \& José Daniel Conejeros.
+date: 'Borrador: `r format(Sys.time(), "%d/%m/%Y")`'
+output:
+  pdf_document: 
+    fig_caption: yes
+    keep_tex: yes
+    latex_engine: xelatex
+  html_document:
+    df_print: paged
+  word_document: default  
+geometry: "left=2cm,right=2cm,top=1.8cm,bottom=1.8cm"
+linkcolor: blue
+header-includes:
+  - \usepackage[spanish,es-tabla]{babel}
+  - \usepackage[utf8]{inputenc}
+  - \usepackage{multicol}
+fontsize: 11pt
+urlcolor: blue
+abstract: "Trust in political institutions represents a central component of democratic systems. When citizens lack confidence in state bodies as the government and the parliament, the legitimacy of democracy could be challenged. To this regard, in the case of Latin America, we observe a critical scenario, with a steady decrease of institutional trust in the last decade, accompanied by alarming levels of support for authoritarian regimes. Most of the evidence in this regards refers to adult population, leaving sidelined the young generations who certainly have a stake in the future of democracy in the region. This research analyzes trust in political institutions and support for authoritarianism in eighth-grade students, as well as how civic knowledge plays a role enhancing or decreasing these political attitudes. The data corresponds to the International Civic and Citizenship Education Study (ICCS) 2009 and 2016, in which six (Chile, Mexico, Colombia, Paraguay, Guatemala, and the Dominican Republic) and five (Chile, Mexico, Colombia, Peru, and the Dominican Republic) Latin American Countries participated, respectively. Results indicate that civic knowledge has a double role. On the one hand, students with higher levels of civic knowledge tend to show lower levels of authoritarianism, while on the other, higher levels of civic knowledge show lower levels of institutional trust. These associations are pretty similar across time and countries, indicating a particularity of the region. The consequences for democracy and citizenship education are addressed in the conclusion."
+keywords: ""
+---
+
+
+# Introducción 
+
+\break
+
+# Marco Teórico
+
+\break
+
+# Metodología 
+
+\break
+
+# Resultados
+
+\break
+
+# Discusión
+
+\break
+
+# Conclusiones
+
+\break
+
+# Referencias
+
