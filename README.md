@@ -18,7 +18,6 @@ Research deals with trust in political institutions, support for authoritarianis
 ├── Presentaciones: Documento de presentación Coloquio Desigualdad y Ciudadania 2019
 |
 ├── Resultados
-│   - Metodología.docx
 |   - Results_ICCS_2009_2016.Rmd
 |   - Results_ICCS_2009_2016.html
 |   ├── Graphs: Gráficos
