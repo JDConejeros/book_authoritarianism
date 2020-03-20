@@ -8,7 +8,7 @@ output:
   pdf_document: 
     fig_caption: yes
     latex_engine: xelatex
-geometry: "left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm"
+geometry: "left=2cm,right=2.5cm,top=2cm,bottom=2.5cm"
 linkcolor: blue
 header-includes:
   - \usepackage[utf8]{inputenc}
@@ -27,7 +27,7 @@ link-citations: true
 
 1. Introducción 
 2. Revisar marco teórico y metodología 
-3. Revisar resultados: conocimiento cívico fue medida como el promedio de los 4 valores plausibles. Sería bueno incorporar otra forma más apropiada al código de resultados. 
+3. Escribir la parte de resultados
 4. Articular discusión y conclusión.
 
 **Bonus**: El archivo `book_cap_authoritarianism.bib` contiene la literatura utilizada en lo que va del artículo. Se puede seguir incluyendo literatura en este documento para que las referencias estén centralizadas en un bibtex.
@@ -171,6 +171,41 @@ include_graphics("~/Dropbox/book_authoritarianism/Resultados/graph/tab5.png", dp
 ## b. Correlation of institutional trust, support authoritarianism and civic knowledge
 
 
+\begin{center} 
+Figure 1. Support for authoritarianism and Civic Knowledge in students
+\end{center}
+```{r, echo=FALSE, fig.align='center'}
+library(knitr) 
+include_graphics("~/Dropbox/book_authoritarianism/Resultados/graph/g1.png", dpi=NA)
+```
+
+\begin{center} 
+Figure 2. Trust in civic institutions and Civic Knowledge in students
+\end{center}
+```{r, echo=FALSE, fig.align='center'}
+library(knitr) 
+include_graphics("~/Dropbox/book_authoritarianism/Resultados/graph/g3.png", dpi=NA)
+```
+
+\break
+
+\begin{center} 
+Table 6. Regression Models: Support Authoritarianism, Institutional Trust and Civic Knowledge in Latin América
+\end{center}
+```{r, echo=FALSE, fig.align='center'}
+library(knitr) 
+include_graphics("~/Dropbox/book_authoritarianism/Resultados/graph/tab6.png", dpi=NA)
+```
+
+\break
+
+\begin{center} 
+Figure 3. Interaction trust and civic knowledge on dictatorship support
+\end{center}
+```{r, echo=FALSE, fig.align='center'}
+library(knitr) 
+include_graphics("~/Dropbox/book_authoritarianism/Resultados/graph/g8.png", dpi=NA)
+```
 
 
 \break
@@ -181,8 +216,62 @@ include_graphics("~/Dropbox/book_authoritarianism/Resultados/graph/tab5.png", dp
 
 # Conclussion
 
+\break 
+
+# Apéndice 
+
+\begin{center} 
+Figure a. Support for authoritarianism and Civic Knowledge in students
+\end{center}
+
+```{r echo=FALSE, fig.align='center' }
+library(knitr) 
+include_graphics("~/Dropbox/book_authoritarianism/Resultados/graph/g2.png", dpi=NA)
+```
+
+\break
+
+\begin{center} 
+Figure b. Trust in civic institutions and Civic Knowledge in students
+\end{center}
+
+```{r echo=FALSE, fig.align='center' }
+library(knitr) 
+include_graphics("~/Dropbox/book_authoritarianism/Resultados/graph/g4.png", dpi=NA)
+```
+
+\break
+
+\begin{center} 
+Figure b. Trust in civic institutions and Civic Knowledge in students (continue)
+\end{center}
+
+```{r echo=FALSE, fig.align='center' }
+library(knitr) 
+include_graphics("~/Dropbox/book_authoritarianism/Resultados/graph/g5.png", dpi=NA)
+```
 
 
+\break
+
+\begin{center} 
+Figure b. Trust in civic institutions and Civic Knowledge in students (continue)
+\end{center}
+
+```{r echo=FALSE, fig.align='center' }
+library(knitr) 
+include_graphics("~/Dropbox/book_authoritarianism/Resultados/graph/g6.png", dpi=NA)
+```
+
+
+\begin{center} 
+Figure b. Trust in civic institutions and Civic Knowledge in students (continue)
+\end{center}
+
+```{r echo=FALSE, fig.align='center' }
+library(knitr) 
+include_graphics("~/Dropbox/book_authoritarianism/Resultados/graph/g7.png", dpi=NA)
+```
 
 \break
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  20 MAR 2020 00:33
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  20 MAR 2020 09:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -703,15 +703,15 @@ ern Roman (RS)
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
-* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
+* h-part:(L,W,R)=(56.9055pt, 486.25761pt, 71.13188pt)
+* v-part:(T,H,B)=(56.9055pt, 666.9326pt, 71.13188pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=472.03123pt
-* \textheight=652.70622pt
-* \oddsidemargin=-1.1381pt
-* \evensidemargin=-1.1381pt
-* \topmargin=-38.1381pt
+* \textwidth=486.25761pt
+* \textheight=666.9326pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -769,7 +769,7 @@ File: ~/Dropbox/book_authoritarianism/Resultados/graph/tab2b.png Graphic file (
 type bmp)
 <~/Dropbox/book_authoritarianism/Resultados/graph/tab2b.png>
 
-Overfull \hbox (17.96661pt too wide) in paragraph at lines 388--388
+Overfull \hbox (3.74023pt too wide) in paragraph at lines 386--386
  [] 
  []
 
@@ -784,8 +784,42 @@ ype bmp)
 File: ~/Dropbox/book_authoritarianism/Resultados/graph/tab5.png Graphic file (t
 ype bmp)
 <~/Dropbox/book_authoritarianism/Resultados/graph/tab5.png>
-[9] [10] [11] [12]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 465.
+[9]
+File: ~/Dropbox/book_authoritarianism/Resultados/graph/g1.png Graphic file (typ
+e bmp)
+<~/Dropbox/book_authoritarianism/Resultados/graph/g1.png>
+File: ~/Dropbox/book_authoritarianism/Resultados/graph/g3.png Graphic file (typ
+e bmp)
+<~/Dropbox/book_authoritarianism/Resultados/graph/g3.png>
+[10] [11]
+File: ~/Dropbox/book_authoritarianism/Resultados/graph/tab6.png Graphic file (t
+ype bmp)
+<~/Dropbox/book_authoritarianism/Resultados/graph/tab6.png>
+[12]
+File: ~/Dropbox/book_authoritarianism/Resultados/graph/g8.png Graphic file (typ
+e bmp)
+<~/Dropbox/book_authoritarianism/Resultados/graph/g8.png>
+[13] [14] [15]
+File: ~/Dropbox/book_authoritarianism/Resultados/graph/g2.png Graphic file (typ
+e bmp)
+<~/Dropbox/book_authoritarianism/Resultados/graph/g2.png>
+[16]
+File: ~/Dropbox/book_authoritarianism/Resultados/graph/g4.png Graphic file (typ
+e bmp)
+<~/Dropbox/book_authoritarianism/Resultados/graph/g4.png>
+[17]
+File: ~/Dropbox/book_authoritarianism/Resultados/graph/g5.png Graphic file (typ
+e bmp)
+<~/Dropbox/book_authoritarianism/Resultados/graph/g5.png>
+[18]
+File: ~/Dropbox/book_authoritarianism/Resultados/graph/g6.png Graphic file (typ
+e bmp)
+<~/Dropbox/book_authoritarianism/Resultados/graph/g6.png>
+File: ~/Dropbox/book_authoritarianism/Resultados/graph/g7.png Graphic file (typ
+e bmp)
+<~/Dropbox/book_authoritarianism/Resultados/graph/g7.png>
+[19] [20]
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 532.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -794,55 +828,55 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmr' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 465.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 532.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 465
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 532
 .
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 465
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 532
 .
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 465.
+(Font)              <10.95> on input line 532.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 465.
+(Font)              <8> on input line 532.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 465.
-LaTeX Font Info:    Try loading font information for U+msa on input line 465.
+(Font)              <6> on input line 532.
+LaTeX Font Info:    Try loading font information for U+msa on input line 532.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 465.
+LaTeX Font Info:    Try loading font information for U+msb on input line 532.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 537.
-[13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 537.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 604.
+[21]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 604.
 (./book_cap.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 537.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 537.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 604.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 604.
 Package rerunfilecheck Info: File `book_cap.out' has not changed.
-(rerunfilecheck)             Checksum: 6DF5AE9D4A69FAA924A9121F5E6D5353.
+(rerunfilecheck)             Checksum: 0B0DA70481BE84E5777635FF30B5519D.
  ) 
 Here is how much of TeX's memory you used:
- 23786 strings out of 492916
- 448592 string characters out of 6133346
- 578987 words of memory out of 5000000
- 27611 multiletter control sequences out of 15000+600000
+ 23823 strings out of 492916
+ 450266 string characters out of 6133346
+ 579091 words of memory out of 5000000
+ 27639 multiletter control sequences out of 15000+600000
  545074 words of font info for 56 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  46i,5n,54p,805b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on book_cap.pdf (13 pages).
+Output written on book_cap.pdf (21 pages).
