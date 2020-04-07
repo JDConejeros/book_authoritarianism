@@ -110,8 +110,9 @@ El International Civic and Citizenship Education Study (ICCS) se basa en una pru
 
 \textbf{\textit{Dependent Variables}}
 
-En este estudio se utilizan dos variables dependientes. En primer lugar, se considera la confianza a las instituciones como ítem de 12 indicadores que consideran instituciones cívicas de corte político, medios de comunicación y confianza interpersonal. Las respuestas calificaron su nivel de confianza bajo las siguientes categorías: \textit{"completamente", "bastante", "un poco", "para nada"}. En segundo lugar, el apoyo al autoritarismo se utilizó dos preguntas con un total de 9 indicadores para identificar en qué medida los estudiantes respaldaban prácticas no democráticas y dos que miden la justificación de dictaduras por beneficios económicos y orden y seguridad). Los estudiantes calificaron su nivel de acuerdo como \textit{"totalmente de acuerdo", "de acuerdo", "en desacuerdo", "totalmente en desacuerdo"} para cada una de estas preguntas. La siguiente tabla describe cada indicador del ICCS para el año 2009 y 2016: 
+En este estudio se utilizan las variables dependientes corresponden a confianza en las instituciones y apoyo a prácticas autoritarias. El cuestionario de ICCS incluye una serie de elementos que miden la confianza de los estudiantes hacia instituciones cívicas de corte político, medios de comunicación y confianza interpersonal. Las respuestas calificaron su nivel de confianza bajo las siguientes categorías: \textit{"completamente", "bastante", "un poco", "para nada"}. La escala de confianza hacia instituciones políticas considera el gobierno nacional, local, cortes de justicia, la policia, partidos políticos y el parlamento nacional. 
 
+Sobre el apoyo al autoritarismo se utiliza una escala de apoyo a prácticas autoritarias (no democráticas) que incluye frases como: "Es mejor que los líderes gubernamentales tomen decisiones sin consultar a nadie" o "Es justo que el gobierno no cumpla con la ley cuando cree que no es necesario", para más puede revisar los 9 ítems que incluye la escala en la tabla 2. Además, se incluyen dos medidas de justificación de las dictaduras a cambio de beneficios económicos y orden y seguridad. Los estudiantes calificaron su nivel de acuerdo como \textit{"totalmente de acuerdo", "de acuerdo", "en desacuerdo", "totalmente en desacuerdo"} para cada una de estas preguntas. La siguiente tabla describe cada indicador utilizado en el modelo de medición para el año 2009 y 2016: 
 
 \begin{center} 
 Table 2. Dependt Variable: Institutional trust in students 
@@ -138,7 +139,7 @@ include_graphics("~/Dropbox/book_authoritarianism/Resultados/graph/tab2b.png")
 
 \textbf{\textit{Independent Variables}}
 
-Como principal variable independiente se utiliza el puntaje de conocimiento alcanzado en la prueba internacional ICCS para Latino América. Esta prueba consiste en un set de 79 ítems que se aplican organizados en siete formatos distintos, en que cada estudiante responde un cuadernillo que contiene tres subgrupos de preguntas. Para estimar el nivel de conocimiento cívico en función de este diseño, se utiliza un modelo de Item Response Theory (IRT) para estimar cinco valores plausibles como puntaje. Esta variable presenta un promedio internacional de 500 puntos y una desviación estándar de 100. A continuación se resumen los puntajes para cada uno de los países en el año 2009 y 2016:
+Como principal variable independiente se utiliza el puntaje de conocimiento alcanzado en la prueba internacional ICCS para Latino América. Esta prueba consiste en un set de 79 ítems que se aplican organizados en siete formatos distintos, en que cada estudiante responde un cuadernillo que contiene tres subgrupos de preguntas. Para estimar el nivel de conocimiento cívico en función de este diseño, se utiliza un modelo de Item Response Theory (IRT) para estimar cinco valores plausibles como puntaje los cuales son considerados en la estimación ponderada del puntaje en base a un muestreo complejo. Esta variable presenta un promedio internacional de 500 puntos y una desviación estándar de 100. A continuación se resumen los puntajes para cada uno de los países en el año 2009 y 2016:
 
 
 \begin{center} 
@@ -149,17 +150,21 @@ library(knitr)
 include_graphics("~/Dropbox/book_authoritarianism/Resultados/graph/tab3.png")
 ```
 
-El resto de las variables independientes cumplen el objetivo de controlar la asociación estadística entre el apoyo a autoritarismos, confianza en instituciones políticas y conocimiento cívico. En ese sentido, se utiliza un *proxy* para evaluar el origen socioeconómico del estudiante y el capital cultural. Para la primera dimensión se utiliza una medida estandarizada que captura el mayor nivel educacional alcanzado por el padre o la madre, para la segunda dimensión se utiliza el número de libros en el hogar. A esto se agregar un indicador que identifica el género del estudiante y un indicador del nivel de discusión política que realiza el estudiante con amigos y familia fuera de la sala de clases. 
+El resto de las variables independientes cumplen el objetivo de controlar la asociación estadística entre el apoyo a autoritarismos, confianza en instituciones políticas y conocimiento cívico. En ese sentido, en el cuestionario para estudiantes de ICCS se utiliza un *proxy* para evaluar el origen socioeconómico del estudiante y el capital cultural. Para la primera dimensión se utiliza una medida estandarizada que captura el mayor nivel educacional alcanzado por el padre o la madre, para la segunda dimensión se utiliza el número de libros en el hogar. A esto se agrega un indicador que identifica el género del estudiante y un indicador del nivel de discusión política que realiza el estudiante con amigos y familia fuera de la sala de clases. 
+
+[Comentario José: ¿Será necesario incluir una tabla de descriptivos para los controles por cada país?]()
 
 ## c. Analytical Strategy
 
-A nivel descriptivo se evalúan las diferencias estadístucas para cada uno de los indicadores de confianza institucional y apoyo a autoritarismos entre los años 2009 y 2016. Luego se utilizan dos indicadores que resumen la información de confianza en instituciones políticas y apoyo a prácticas autoritarias (ambos construídos mediante un análisis factorial confirmatorio). Finalmente, se estiman modelos de regresión OLS a nivel agregado para evaluar la asociación entre conocimiento cívico y los indicadores descritos, utilizando los controles estadísticos mencionados en el apartado anterior.   
+A nivel descriptivo se evalúan las diferencias estadísticas para cada uno de los indicadores de confianza institucional y apoyo a autoritarismos entre los años 2009 y 2016. Luego se utilizan dos indicadores que resumen la información de confianza en instituciones políticas y apoyo a prácticas autoritarias (ambos construídos a partir de un análisis factorial confirmatorio). Finalmente, se estiman modelos de regresión OLS a nivel agregado para evaluar la asociación entre conocimiento cívico y las escalas de confianza en instituciones y autoritarismo, además se utilizan los controles estadísticos mencionados en el apartado anterior.   
+
+[Comentario José: En esta parte no estaba muy claro si bastaba con esto o se iba a profundizar en otra técnica]()
 
 \break
 
 # Results
 
-En esta sección se describen los principales resultados del estudio. Primero se presentan a nivel general los cambios descriptivos entre el 2009 y 2016 para la confianza institucional y el apoyo a autoritarismos para cada país del estudio. En segundo lugar se presentan las asociaciones entre las variables de interés a través de elementos gráficos y modelos de regresión OLS a nivel agregado para el contexto latinoamericano. 
+En esta sección se describen los principales resultados del estudio. Primero se presentan a nivel general los cambios descriptivos entre el 2009 y 2016 para la confianza institucional y el apoyo a autoritarismos para cada país del estudio. Luego se presentan las asociaciones entre las variables de interés a través de elementos gráficos y modelos de regresión OLS a nivel agregado para la muestra de países de Latinoamérica.
 
 ## a. Descriptive trends across time
 
