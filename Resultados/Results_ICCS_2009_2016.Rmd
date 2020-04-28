@@ -56,6 +56,8 @@ library(MplusAutomation)
 #1. Test civic knowledge (ISL)
 #2. Students questionary (ISG)
 
+chi09 <-  as.data.frame(read_sas("~/Dropbox/book_authoritarianism/Data/Original/2009/islchlc2.sas7bdat"))
+
 #Chile
 chi09 <-  as.data.frame(read_sas("C:/Users/DM/Dropbox (Personal)/book_authoritarianism/Data/Original/2009/islchlc2.sas7bdat"))
 chi092 <-  as.data.frame(read_sas("C:/Users/DM/Dropbox (Personal)/book_authoritarianism/Data/Original/2009/isgchlc2.sas7bdat")) 
